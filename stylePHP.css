@@ -1,0 +1,78 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+th {
+  height: 30px;
+}
+
+body {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 10%;
+  padding: 1px 2px;
+  margin: 2px 2px;
+  display: inline-block;
+  /* border: 1px solid rebeccapurple; */
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+label {
+  width: 20%;
+  padding: 1px 2px;
+  margin: 2px 2px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#Pricelist label,
+#Quantitylist label{
+  width: 20%;
+  font-size: 0.8em;
+  padding: 1px 2px;
+  margin: 2px 2px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: lightgray;
+}
+
+#formdata {
+  width: 33%;
+  border: 2px solid maroon;
+  margin: auto;
+  padding: 10px;
+}
+#num {
+  margin-left: 25px;
+}
+
+input[type="submit"] {
+  width: 35%;
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
